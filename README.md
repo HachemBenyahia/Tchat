@@ -4,7 +4,7 @@ This project is currently not functional.
 
 ## Installation
 
-* Pull the repository locally.
+* Clone the repository locally.
 * `bin/composer install`
 * Visit http://127.0.0.1/index.php
 
