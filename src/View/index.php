@@ -14,11 +14,18 @@
     <body>
         <div class="container">
             <div>
-                aeeeeeeeeeeeeeeee
+                <!-- get messages with angularjs -->
+
+                aaa
+                <br>
+                bbb
+                <br>
+                ccc
             </div>
             <div>
                 <textarea class="form-control"></textarea>
             </div>
+            <?php echo "<a href='$server/index.php/login'>Login</a>" ?>
         </div>
     </body>
 </html>

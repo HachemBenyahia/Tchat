@@ -30,6 +30,10 @@
         $_GET[$parameter] = $values[$key];
     }
 
+    if ($action === "" || !$action) {
+        $action = "login";
+    }
+
     $controllerNamespace = "\App\Controller\\View";
     if (class_exists($controllerNamespace) === false) {
         die("Error : controller <b>$controllerNamespace</b> was not found");

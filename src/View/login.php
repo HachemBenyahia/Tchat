@@ -18,6 +18,8 @@
                 <input type="text" class="form-control" placeholder="password">
                 <input type="submit" class="form-control btn-primary" value="Log In">
             </form>
+
+            <?php echo "<a href='$server/index.php/index'>Index</a>" ?>
         </div>
     </body>
 </html>
